@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <form onsubmit="return validForm()" method="post">
+            <label for="email">Your E-mail</label> 
+            <input type="text" id="email" name="email">
+            <label for="reemail">Re E-mail</label>
+            <input type="text" id="reemail" name="reemail">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <div id="alarm"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
